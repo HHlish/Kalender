@@ -1,0 +1,785 @@
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalender HUT PI Group</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 30px auto;
+        }
+        .calendar {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .month {
+            width: 40%;
+            margin: 1%;
+            background-color: #fff;
+            border-radius: 3px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .month h2 {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px;
+            margin: 0;
+            text-align: center;
+        }
+        .days {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            background-color: #f1f1f1;
+        }
+        .days div {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        .days div:nth-child(7n) {
+            color: red;
+        }
+        .days div:nth-child(7n+1) {
+            color: red;
+        }
+        .highlight-day {
+            background-color: #ffeb3b; /* Warna latar belakang untuk tanggal penting */
+            font-weight: bold;
+	}
+	.highlight-li {
+	    background-color: #0000FF; /* Warna latar belakang untuk tanggal penting */
+            font-weight: bold
+	}
+        .agenda {
+            padding: 10px;
+            background-color: #fafafa;
+        }
+        .agenda ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .agenda li {
+            margin-bottom: 5px;
+        }
+        .agenda li::before {
+            content: "• ";
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Kalender HUT PI Group</h1>
+        <div class="calendar">
+            <!-- Januari -->
+            <div class="month">
+                <h2>Januari 2024</h2>
+                <div class="days">
+		    <div>Minggu</div>
+                    <div>Senin</div>
+                    <div>Selasa</div>
+                    <div>Rabu</div>
+                    <div>Kamis</div>
+                    <div>Jumat</div>
+                    <div>Sabtu</div>
+                    <!-- Days -->
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div>1</div>
+		    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>
+                    <div class="highlight-day">7</div>
+ 		    <div class="highlight-day">8</div>
+                    <div>9</div>
+                    <div class="highlight-day">10</div>
+                    <div>11</div>
+                    <div class="highlight-day">12</div>
+                    <div>13</div>
+                    <div>14</div>
+                    <div>15</div>
+                    <div>16</div>
+                    <div>17</div>
+                    <div>18</div>
+                    <div class="highlight-day">19</div>
+                    <div class="highlight-day">20</div>
+                    <div>21</div>
+                    <div>22</div>
+                    <div>23</div>
+                    <div>24</div>
+                    <div>25</div>
+                    <div>26</div>
+                    <div class="highlight-day">27</div>
+                    <div>28</div>
+                    <div>29</div>
+                    <div>30</div>
+                    <div>31</div>
+                </div>
+                <div class="agenda">
+                    <h3>Agenda:</h3>
+                    <ul>
+                        <li>Digna Jatiningsih Direktur Operasi & Produksi PKG - 07 Januari 1967</li>
+                        <li>D. Andhi Nirwanto Komisaris Utama PKT - 08 Januari 1956</li>
+                        <li>Anis Ernani Direktur Operasi PIU - 10 Januari 1968</li>
+			<li>Bambang Supriyambodo Komisaris PSP - 12 Januari 1961</li>
+			<li>Maryono	Direktur Utama 	PKC - 19 Januari 1972</li>
+			<li>Gusrizal	Wakil Direktur Utama 	PI - 20 Januari 1964</li>
+			<li>Tri Wahyudi Saleh	Direktur Pemasaran	PI - 20 Januari 1964</li>
+			<li class="highlight-li">HUT PT SIGMA UTAMA</li>
+			<li>Nuri Kristiawan	Direktur Keuangan	PIU - 27 Januari 1971</li>
+			<li>Zulyan Imansyah	Direktur Utama 	PILOG - 27 Januari 1975</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="month">
+                <h2>Februari 2024</h2>
+                <div class="days">
+		    <div>Minggu</div>
+                    <div>Senin</div>
+                    <div>Selasa</div>
+                    <div>Rabu</div>
+                    <div>Kamis</div>
+                    <div>Jumat</div>
+                    <div>Sabtu</div>
+                    <!-- Days -->
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+		    <div>1</div>
+                    <div class="highlight-day">2</div>
+                    <div>3</div>
+                    <div class="highlight-day">4</div>
+                    <div>5</div>
+                    <div>6</div>
+                    <div>7</div>
+                    <div>8</div>
+                    <div>9</div>
+                    <div>10</div>
+                    <div>11</div>
+                    <div class="highlight-day">12</div>
+                    <div class="highlight-day">13</div>
+                    <div>14</div>
+                    <div>15</div>
+                    <div>16</div>
+                    <div>17</div>
+                    <div>18</div>
+                    <div>19</div>
+                    <div>20</div>
+                    <div>21</div>
+                    <div>22</div>
+                    <div>23</div>
+                    <div class="highlight-day">24</div>
+                    <div>25</div>
+                    <div>26</div>
+                    <div class="highlight-day">27</div>
+                    <div>28</div>
+                    <div>29</div>
+                    <!-- Add additional days if needed -->
+                </div>
+                <div class="agenda">
+                    <h3>Agenda:</h3>
+                    <ul>
+                        <li>Sigit Hardwinarto	Komisaris	PKT - 02 Februari 1961</li>
+                        <li>Noer Fajriensyah	Komisaris	PKG - 04 Februari 1983</li>
+                        <li>Bin Nahadi	Komisaris	PKG - 12 Februari 1976</li>
+                        <li>Saifullah Lasindrang	Direktur Keuangan & Umum	PSP - 13 Februari 1965</li>
+                        <li>Ari Dwipayana	Komisaris	PI - 24 Februari 1972</li>
+                        <li class="highlight-li">HUT PT PUPUK ISKANDAR MUDA</li>
+                        <li>Rachman Ferry Isfianto	Komisaris	PKC - 27 Februari 1972</li>
+			<li>Febrio Nathan Kacaribu	Komisaris	PI	27 Februari 1978</li>
+                    </ul>
+                </div>
+            </div>
+<div class="month">
+                <h2>Maret 2024</h2>
+                <div class="days">
+		    <div>Minggu</div>
+                    <div>Senin</div>
+                    <div>Selasa</div>
+                    <div>Rabu</div>
+                    <div>Kamis</div>
+                    <div>Jumat</div>
+                    <div>Sabtu</div>
+                    <!-- Days -->
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>
+                    <div>7</div>
+                    <div class="highlight-day">8</div>
+                    <div>9</div>
+                    <div>10</div>
+                    <div>11</div>
+                    <div>12</div>
+                    <div>13</div>
+                    <div>14</div>
+                    <div>15</div>
+                    <div>16</div>
+                    <div>17</div>
+                    <div>18</div>
+                    <div>19</div>
+                    <div>20</div>
+                    <div>21</div>
+                    <div>22</div>
+                    <div class="highlight-day">23</div>
+                    <div>24</div>
+                    <div>25</div>
+                    <div>26</div>
+                    <div>27</div>
+                    <div>28</div>
+                    <div>29</div>
+                    <div>30</div>
+                    <div>31</div>
+                    <!-- Add additional days if needed -->
+                </div>
+                <div class="agenda">
+                    <h3>Agenda:</h3>
+                    <ul>
+                        <li>Panji Winanteya Ruky	Direktur Transformasi Bisnis	PI - 08 Maret 1976</li>
+                        <li>Suwandi	Komisaris	PI - 23 Maret 1967</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="month">
+                <h2>April 2024</h2>
+                <div class="days">
+		    <div>Minggu</div>
+                    <div>Senin</div>
+                    <div>Selasa</div>
+                    <div>Rabu</div>
+                    <div>Kamis</div>
+                    <div>Jumat</div>
+                    <div>Sabtu</div>
+                    <!-- Days -->
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div class="highlight-day">1</div>
+                    <div>2</div>
+                    <div class="highlight-day">3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>
+                    <div>7</div>
+                    <div>8</div>
+                    <div>9</div>
+                    <div>10</div>
+                    <div>11</div>
+                    <div>12</div>
+                    <div class="highlight-day">13</div>
+                    <div>14</div>
+                    <div>15</div>
+                    <div>16</div>
+                    <div class="highlight-day">17</div>
+                    <div>18</div>
+                    <div>19</div>
+                    <div class="highlight-day">20</div>
+                    <div>21</div>
+                    <div>22</div>
+                    <div>23</div>
+                    <div>24</div>
+                    <div class="highlight-day">25</div>
+                    <div>26</div>
+                    <div>27</div>
+                    <div>28</div>
+                    <div>29</div>
+                    <div class="highlight-day">30</div>
+                    <!-- Add additional days if needed -->
+                </div>
+                <div class="agenda">
+                    <h3>Agenda:</h3>
+                    <ul>
+                        <li>Setya Utama	Komisaris Utama	PSP - 01 April 1967</li>
+                        <li class="highlight-li">HUT PT PUPUK INDONESIA</li>
+                        <li class="highlight-li">HUT Kementerian BUMN</li>
+                        <li>Rahmad Pribadi	Direktur Utama	PI - 13 April 1970</li>
+                        <li>Yusuf Trudo HDM Nainggolan	Plt Direktur Utama	PIN - 17 Maret 1980</li>
+                        <li>Sally Salamah	Komisaris	PSP - 20 April 1967</li>
+                        <li>F. Purwanto	Direktur Operasi 	PKT - 25 April 1965</li>
+			<li>Jodie Rooseto	Komisaris	PKC - 30 April 1959</li>
+			<li class="highlight-li">HUT PT PUPUK INDONESIA PANGAN</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="month">
+                <h2>Mei 2024</h2>
+                <div class="days">
+                    <div>Su</div>
+                    <div>Mo</div>
+                    <div>Tu</div>
+                    <div>We</div>
+                    <div>Th</div>
+                    <div>Fr</div>
+                    <div>Sa</div>
+                    <!-- Days -->
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>
+                    <div>7</div>
+                    <div>8</div>
+                    <div>9</div>
+                    <div>10</div>
+                    <div>11</div>
+                    <div>12</div>
+                    <div>13</div>
+                    <div>14</div>
+                    <div>15</div>
+                    <div>16</div>
+                    <div>17</div>
+                    <div>18</div>
+                    <div>19</div>
+                    <div>20</div>
+                    <div>21</div>
+                    <div>22</div>
+                    <div>23</div>
+                    <div>24</div>
+                    <div>25</div>
+                    <div>26</div>
+                    <div>27</div>
+                    <div>28</div>
+                    <div>29</div>
+                    <!-- Add additional days if needed -->
+                </div>
+                <div class="agenda">
+                    <h3>Agenda:</h3>
+                    <ul>
+                        <li>Workshop Teknologi - 7 Februari 2024</li>
+                        <li>Diskusi Tim - 14 Februari 2024</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="month">
+                <h2>Juni 2024</h2>
+                <div class="days">
+                    <div>Su</div>
+                    <div>Mo</div>
+                    <div>Tu</div>
+                    <div>We</div>
+                    <div>Th</div>
+                    <div>Fr</div>
+                    <div>Sa</div>
+                    <!-- Days -->
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>
+                    <div>7</div>
+                    <div>8</div>
+                    <div>9</div>
+                    <div>10</div>
+                    <div>11</div>
+                    <div>12</div>
+                    <div>13</div>
+                    <div>14</div>
+                    <div>15</div>
+                    <div>16</div>
+                    <div>17</div>
+                    <div>18</div>
+                    <div>19</div>
+                    <div>20</div>
+                    <div>21</div>
+                    <div>22</div>
+                    <div>23</div>
+                    <div>24</div>
+                    <div>25</div>
+                    <div>26</div>
+                    <div>27</div>
+                    <div>28</div>
+                    <div>29</div>
+                    <!-- Add additional days if needed -->
+                </div>
+                <div class="agenda">
+                    <h3>Agenda:</h3>
+                    <ul>
+                        <li>Workshop Teknologi - 7 Februari 2024</li>
+                        <li>Diskusi Tim - 14 Februari 2024</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="month">
+                <h2>Juli 2024</h2>
+                <div class="days">
+                    <div>Su</div>
+                    <div>Mo</div>
+                    <div>Tu</div>
+                    <div>We</div>
+                    <div>Th</div>
+                    <div>Fr</div>
+                    <div>Sa</div>
+                    <!-- Days -->
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>
+                    <div>7</div>
+                    <div>8</div>
+                    <div>9</div>
+                    <div>10</div>
+                    <div>11</div>
+                    <div>12</div>
+                    <div>13</div>
+                    <div>14</div>
+                    <div>15</div>
+                    <div>16</div>
+                    <div>17</div>
+                    <div>18</div>
+                    <div>19</div>
+                    <div>20</div>
+                    <div>21</div>
+                    <div>22</div>
+                    <div>23</div>
+                    <div>24</div>
+                    <div>25</div>
+                    <div>26</div>
+                    <div>27</div>
+                    <div>28</div>
+                    <div>29</div>
+                    <!-- Add additional days if needed -->
+                </div>
+                <div class="agenda">
+                    <h3>Agenda:</h3>
+                    <ul>
+                        <li>Workshop Teknologi - 7 Februari 2024</li>
+                        <li>Diskusi Tim - 14 Februari 2024</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="month">
+                <h2>Agustus 2024</h2>
+                <div class="days">
+                    <div>Su</div>
+                    <div>Mo</div>
+                    <div>Tu</div>
+                    <div>We</div>
+                    <div>Th</div>
+                    <div>Fr</div>
+                    <div>Sa</div>
+                    <!-- Days -->
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>
+                    <div>7</div>
+                    <div>8</div>
+                    <div>9</div>
+                    <div>10</div>
+                    <div>11</div>
+                    <div>12</div>
+                    <div>13</div>
+                    <div>14</div>
+                    <div>15</div>
+                    <div>16</div>
+                    <div>17</div>
+                    <div>18</div>
+                    <div>19</div>
+                    <div>20</div>
+                    <div>21</div>
+                    <div>22</div>
+                    <div>23</div>
+                    <div>24</div>
+                    <div>25</div>
+                    <div>26</div>
+                    <div>27</div>
+                    <div>28</div>
+                    <div>29</div>
+                    <!-- Add additional days if needed -->
+                </div>
+                <div class="agenda">
+                    <h3>Agenda:</h3>
+                    <ul>
+                        <li>Workshop Teknologi - 7 Februari 2024</li>
+                        <li>Diskusi Tim - 14 Februari 2024</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="month">
+                <h2>September 2024</h2>
+                <div class="days">
+                    <div>Su</div>
+                    <div>Mo</div>
+                    <div>Tu</div>
+                    <div>We</div>
+                    <div>Th</div>
+                    <div>Fr</div>
+                    <div>Sa</div>
+                    <!-- Days -->
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>
+                    <div>7</div>
+                    <div>8</div>
+                    <div>9</div>
+                    <div>10</div>
+                    <div>11</div>
+                    <div>12</div>
+                    <div>13</div>
+                    <div>14</div>
+                    <div>15</div>
+                    <div>16</div>
+                    <div>17</div>
+                    <div>18</div>
+                    <div>19</div>
+                    <div>20</div>
+                    <div>21</div>
+                    <div>22</div>
+                    <div>23</div>
+                    <div>24</div>
+                    <div>25</div>
+                    <div>26</div>
+                    <div>27</div>
+                    <div>28</div>
+                    <div>29</div>
+                    <!-- Add additional days if needed -->
+                </div>
+                <div class="agenda">
+                    <h3>Agenda:</h3>
+                    <ul>
+                        <li>Workshop Teknologi - 7 Februari 2024</li>
+                        <li>Diskusi Tim - 14 Februari 2024</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="month">
+                <h2>Oktober 2024</h2>
+                <div class="days">
+                    <div>Su</div>
+                    <div>Mo</div>
+                    <div>Tu</div>
+                    <div>We</div>
+                    <div>Th</div>
+                    <div>Fr</div>
+                    <div>Sa</div>
+                    <!-- Days -->
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>
+                    <div>7</div>
+                    <div>8</div>
+                    <div>9</div>
+                    <div>10</div>
+                    <div>11</div>
+                    <div>12</div>
+                    <div>13</div>
+                    <div>14</div>
+                    <div>15</div>
+                    <div>16</div>
+                    <div>17</div>
+                    <div>18</div>
+                    <div>19</div>
+                    <div>20</div>
+                    <div>21</div>
+                    <div>22</div>
+                    <div>23</div>
+                    <div>24</div>
+                    <div>25</div>
+                    <div>26</div>
+                    <div>27</div>
+                    <div>28</div>
+                    <div>29</div>
+                    <!-- Add additional days if needed -->
+                </div>
+                <div class="agenda">
+                    <h3>Agenda:</h3>
+                    <ul>
+                        <li>Workshop Teknologi - 7 Februari 2024</li>
+                        <li>Diskusi Tim - 14 Februari 2024</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="month">
+                <h2>November 2024</h2>
+                <div class="days">
+                    <div>Su</div>
+                    <div>Mo</div>
+                    <div>Tu</div>
+                    <div>We</div>
+                    <div>Th</div>
+                    <div>Fr</div>
+                    <div>Sa</div>
+                    <!-- Days -->
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>
+                    <div>7</div>
+                    <div>8</div>
+                    <div>9</div>
+                    <div>10</div>
+                    <div>11</div>
+                    <div>12</div>
+                    <div>13</div>
+                    <div>14</div>
+                    <div>15</div>
+                    <div>16</div>
+                    <div>17</div>
+                    <div>18</div>
+                    <div>19</div>
+                    <div>20</div>
+                    <div>21</div>
+                    <div>22</div>
+                    <div>23</div>
+                    <div>24</div>
+                    <div>25</div>
+                    <div>26</div>
+                    <div>27</div>
+                    <div>28</div>
+                    <div>29</div>
+                    <!-- Add additional days if needed -->
+                </div>
+                <div class="agenda">
+                    <h3>Agenda:</h3>
+                    <ul>
+                        <li>Workshop Teknologi - 7 Februari 2024</li>
+                        <li>Diskusi Tim - 14 Februari 2024</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="month">
+                <h2>Desember 2024</h2>
+                <div class="days">
+                    <div>Su</div>
+                    <div>Mo</div>
+                    <div>Tu</div>
+                    <div>We</div>
+                    <div>Th</div>
+                    <div>Fr</div>
+                    <div>Sa</div>
+                    <!-- Days -->
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>
+                    <div>7</div>
+                    <div>8</div>
+                    <div>9</div>
+                    <div>10</div>
+                    <div>11</div>
+                    <div>12</div>
+                    <div>13</div>
+                    <div>14</div>
+                    <div>15</div>
+                    <div>16</div>
+                    <div>17</div>
+                    <div>18</div>
+                    <div>19</div>
+                    <div>20</div>
+                    <div>21</div>
+                    <div>22</div>
+                    <div>23</div>
+                    <div>24</div>
+                    <div>25</div>
+                    <div>26</div>
+                    <div>27</div>
+                    <div>28</div>
+                    <div>29</div>
+                    <!-- Add additional days if needed -->
+                </div>
+                <div class="agenda">
+                    <h3>Agenda:</h3>
+                    <ul>
+                        <li>Workshop Teknologi - 7 Februari 2024</li>
+                        <li>Diskusi Tim - 14 Februari 2024</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Repeat for all months until Desember -->
+        </div>
+    </div>
+</body>
+</html>
